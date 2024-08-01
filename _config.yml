@@ -1,7 +1,20 @@
 # -----------------------------------------------------------------------------
 # Site settings
 # -----------------------------------------------------------------------------
-
+<!-- Default Statcounter code for Personal Website https://uksangyoo.github.io/
+-->
+<script type="text/javascript">
+var sc_project=13022947; 
+var sc_invisible=1; 
+var sc_security="e706e67f"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js" async></script>
+<noscript><div class="statcounter"><a title="Web Analytics"
+href="https://statcounter.com/" target="_blank"><img class="statcounter"
+src="https://c.statcounter.com/13022947/0/e706e67f/1/" alt="Web Analytics"
+referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+<!-- End of Statcounter Code -->
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Uksang
 middle_name: 
