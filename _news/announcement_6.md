@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper on learning for demonstration for robotic pottery with structural priors was accepted to Humanoids 2024! :tada:
+Our paper on learning from demonstration for robotic pottery with structural priors was accepted to Humanoids 2024! :tada:
