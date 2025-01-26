@@ -19,7 +19,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-I am a Ph.D. student at Carnegie Mellon University in the Robotics Institute (RI) co-advised by [Jean Oh](https://www.ri.cmu.edu/ri-faculty/jean-hyaejin-oh/) and [Jeffrey Ichnowski](https://ichnow.ski/). As a member of RI's [BIG lab](https://cmubig.github.io/) and Momentum lab, my research focuses on **understanding and leveraging deformation in contact-rich robotic manipulation tasks**.
+I am a Ph.D. student at Carnegie Mellon University in the Robotics Institute (RI) co-advised by [Jean Oh](https://www.ri.cmu.edu/ri-faculty/jean-hyaejin-oh/) and [Jeffrey Ichnowski](https://ichnow.ski/). As a member of RI's [BIG lab](https://cmubig.github.io/) and Momentum lab, my research focuses on understanding and leveraging deformation in contact-rich robotic manipulation tasks.
 
 My work spans two main areas: developing methods to utilize robot compliance for dexterous and delicate manipulation, and reasoning about continuous deformations of soft objects during contact-rich interactions. This research combines theoretical foundations in discrete differential geometry, machine learning, and soft body mechanics with practical applications in robotics.
 
