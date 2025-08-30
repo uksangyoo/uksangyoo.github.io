@@ -18,7 +18,6 @@ latest_posts: false # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
-
 I am a Ph.D. student at Carnegie Mellon University in the Robotics Institute (RI) co-advised by [Jean Oh](https://www.ri.cmu.edu/ri-faculty/jean-hyaejin-oh/) and [Jeffrey Ichnowski](https://ichnow.ski/). I also work as a research scientist intern with robot learning group at Bosch AI (Summer 2025) and Meta (Fall 2025). As a member of RI's [BIG lab](https://cmubig.github.io/) and Momentum lab, my research focuses on **leveraging robot hands’ unique morphologies** to perform **dexterous** and **contact-rich** manipulation tasks in ways that exploit each morphology’s distinct capabilities.
 
 My work spans two main areas: developing methods to utilize robot compliance for dexterous and delicate manipulation, and reasoning about continuous deformations of soft objects during contact-rich interactions. This research combines theoretical foundations in discrete differential geometry, machine learning, and soft body mechanics with practical applications in deploying dexterous robots to the real world.
