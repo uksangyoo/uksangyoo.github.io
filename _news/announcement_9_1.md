@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our work on contact-rich hair manipulation for assitive care was accepted to ACM/IEEE International Conference on Human Robot Interaction (HRI)! :tada: 
+Our work on contact-rich hair manipulation for assitive care was accepted to ACM/IEEE International Conference on Human Robot Interaction (HRI)! :tada:

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-We demoed our artistic robots (portrait drawing, co-painting, dexterous soft hands) at [MARS](https://marsconference.com/)! :relaxed: 
+We demoed our artistic robots (portrait drawing, co-painting, dexterous soft hands) at [MARS](https://marsconference.com/)! :relaxed:

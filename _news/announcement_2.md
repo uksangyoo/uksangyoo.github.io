@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper on mesh reconstruction of deformable robots was accepted to [ICRA 2024](https://2024.ieee-icra.org/)! :tada: 
+Our paper on mesh reconstruction of deformable robots was accepted to [ICRA 2024](https://2024.ieee-icra.org/)! :tada:

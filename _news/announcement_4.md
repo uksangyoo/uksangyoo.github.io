@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our LBR was nominated for 'Best LBR' at [HRI 2024](https://humanrobotinteraction.org/2024/)! :relaxed: 
+Our LBR was nominated for 'Best LBR' at [HRI 2024](https://humanrobotinteraction.org/2024/)! :relaxed:

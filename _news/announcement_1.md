@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our Late Breaking Report (LBR) was accepted to [HRI 2024](https://humanrobotinteraction.org/2024/)! :tada: 
+Our Late Breaking Report (LBR) was accepted to [HRI 2024](https://humanrobotinteraction.org/2024/)! :tada:
