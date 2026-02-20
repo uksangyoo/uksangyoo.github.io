@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our workshop on Real2Sim2Real was accepted to ICRA 2026! We look forward to you submissions :tada:
+Our workshop on Real2Sim2Real was accepted to ICRA 2026! We look forward to your submissions :tada:
