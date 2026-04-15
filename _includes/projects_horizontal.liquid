@@ -11,6 +11,27 @@
           <div class="card-body">
             <h3 class="card-title text-lowercase">{{ project.title }}</h3>
             <p class="card-text">{{ project.description }}</p>
+            {% assign project_title_text = project.title | default: '' | downcase %}
+            {% assign project_desc_text = project.description | default: '' | downcase %}
+            {% assign project_category_text = project.category | default: '' | downcase %}
+            {% assign project_topic_text = project_title_text | append: ' ' | append: project_desc_text | append: ' ' | append: project_category_text %}
+            <div class="theme-tags">
+              {% if project_topic_text contains 'soft' or project_topic_text contains 'compliant' or project_topic_text contains 'pneumatic' %}
+                <span class="theme-tag">Soft Robots</span>
+              {% endif %}
+              {% if project_topic_text contains 'tactile' or project_topic_text contains 'acoustic' or project_topic_text contains 'contact' or project_topic_text contains 'propriocept' %}
+                <span class="theme-tag">Tactile Sensing</span>
+              {% endif %}
+              {% if project_topic_text contains 'deform' or project_topic_text contains 'hair' or project_topic_text contains 'shape' %}
+                <span class="theme-tag">Deformable Manipulation</span>
+              {% endif %}
+              {% if project_topic_text contains 'learning' or project_topic_text contains 'policy' %}
+                <span class="theme-tag">Robot Learning</span>
+              {% endif %}
+              {% if project_topic_text contains 'award' %}
+                <span class="theme-tag award-tag">Award</span>
+              {% endif %}
+            </div>
             <div class="row ml-1 mr-1 p-0">
               {% if project.github %}
                 <div class="github-icon">

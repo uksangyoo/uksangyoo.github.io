@@ -183,6 +183,10 @@ blockquote {
     margin-bottom: 5px;
     margin-top: 5px;
     font-family: monospace;
+    padding: 0.75rem 0.9rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 0.5rem;
+    background-color: var(--global-card-bg-color);
 
     p {
       display: inline-block;
@@ -225,6 +229,30 @@ blockquote {
   }
 }
 
+.post-header {
+  margin-bottom: 1.5rem;
+
+  .post-title {
+    letter-spacing: -0.02em;
+  }
+
+  .desc {
+    color: var(--global-text-color-light);
+    font-size: 1.05rem;
+    margin-top: 0.35rem;
+  }
+}
+
+.home-section {
+  margin-top: 2rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid var(--global-divider-color);
+
+  h2 {
+    margin-bottom: 1rem;
+  }
+}
+
 // Navbar customization
 
 .navbar {
@@ -232,6 +260,7 @@ blockquote {
   border-bottom: 1px solid var(--global-divider-color);
   background-color: var(--global-bg-color);
   opacity: 0.95;
+  backdrop-filter: blur(8px);
 }
 
 .navbar .dropdown-menu {
@@ -607,6 +636,16 @@ footer.sticky-bottom {
   }
 
   .card {
+    border: 1px solid var(--global-divider-color);
+    border-radius: 0.8rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+
+    &:hover {
+      transform: translateY(-3px);
+      border-color: var(--global-theme-color);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+    }
+
     img {
       width: 100%;
     }
@@ -625,7 +664,11 @@ footer.sticky-bottom {
   .grid-sizer,
   .grid-item {
     width: 250px;
-    margin-bottom: 10px;
+    margin-bottom: 14px;
+  }
+
+  .card-text {
+    color: var(--global-text-color-light);
   }
 
   h2.category {
@@ -674,12 +717,14 @@ footer.sticky-bottom {
     margin-top: 0;
 
     li {
-      margin-bottom: 1rem;
+      margin-bottom: 1.5rem;
+      padding-bottom: 0.5rem;
 
       .preview {
         width: 100%;
-        min-width: 80px;
-        max-width: 200px;
+        min-width: 120px;
+        max-width: 280px;
+        border-radius: 0.5rem;
       }
 
       .abbr {
@@ -709,6 +754,11 @@ footer.sticky-bottom {
 
       .title {
         font-weight: bolder;
+        margin-bottom: 0.2rem;
+      }
+
+      .periodical {
+        color: var(--global-text-color-light);
       }
 
       .author {
@@ -739,6 +789,7 @@ footer.sticky-bottom {
       }
 
       .links {
+        margin-top: 0.5rem;
         a.btn {
           color: var(--global-text-color);
           border: 1px solid var(--global-text-color);
@@ -747,6 +798,9 @@ footer.sticky-bottom {
           padding-top: 0.25rem;
           padding-bottom: 0.25rem;
           margin-left: 0;
+          margin-right: 0.35rem;
+          margin-top: 0.35rem;
+          border-radius: 999px;
 
           &:hover {
             color: var(--global-theme-color);
@@ -811,6 +865,32 @@ footer.sticky-bottom {
       }
     }
   }
+}
+
+.theme-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-top: 0.45rem;
+  margin-bottom: 0.35rem;
+}
+
+.theme-tag {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--global-theme-color);
+  border: 1px solid var(--global-divider-color);
+  background-color: var(--global-card-bg-color);
+  padding: 0.12rem 0.5rem;
+  border-radius: 999px;
+}
+
+.theme-tag.award-tag {
+  color: #8a6100;
+  border-color: rgba(138, 97, 0, 0.35);
+  background-color: rgba(255, 210, 92, 0.2);
 }
 
 // Rouge Color Customization

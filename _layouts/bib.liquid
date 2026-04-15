@@ -2,7 +2,7 @@
 ---
 <div class="row">
   {% if site.enable_publication_thumbnails %}
-    <div class="col-sm-2 {% if entry.preview %}preview{% else %}abbr{% endif %}">
+    <div class="col-sm-3 {% if entry.preview %}preview{% else %}abbr{% endif %}">
       {% if entry.preview %}
         {% if entry.preview contains '://' %}
           <img class="preview z-depth-1 rounded" src="{{ entry.preview }}">
@@ -38,7 +38,7 @@
   {% endif %}
 
   <!-- Entry bib key -->
-  <div id="{{entry.key}}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
+  <div id="{{entry.key}}" class="{% if site.enable_publication_thumbnails %}col-sm-7{% else %}col-sm-10{% endif %}">
     <!-- Title -->
     <div class="title">{{ entry.title }}</div>
     <!-- Author -->
@@ -150,6 +150,28 @@
       <span style="color: green; font-weight: bold;">
         {{ entry.note | strip }}
       </span>
+    </div>
+
+    {% assign title_text = entry.title | default: '' | downcase %}
+    {% assign venue_text = entry.booktitle | default: '' | downcase %}
+    {% assign note_text = entry.note | default: '' | downcase %}
+    {% assign topic_text = title_text | append: ' ' | append: venue_text | append: ' ' | append: note_text %}
+    <div class="theme-tags">
+      {% if topic_text contains 'soft' or topic_text contains 'compliant' or topic_text contains 'pneumatic' %}
+        <span class="theme-tag">Soft Robots</span>
+      {% endif %}
+      {% if topic_text contains 'tactile' or topic_text contains 'acoustic' or topic_text contains 'contact' or topic_text contains 'propriocept' %}
+        <span class="theme-tag">Tactile Sensing</span>
+      {% endif %}
+      {% if topic_text contains 'deform' or topic_text contains 'hair' or topic_text contains 'potter' %}
+        <span class="theme-tag">Deformable Manipulation</span>
+      {% endif %}
+      {% if topic_text contains 'learning' or topic_text contains 'policy' or topic_text contains 'sim-to-real' %}
+        <span class="theme-tag">Robot Learning</span>
+      {% endif %}
+      {% if note_text contains 'best' or note_text contains 'finalist' or note_text contains 'oral' %}
+        <span class="theme-tag award-tag">Award</span>
+      {% endif %}
     </div>
 
     <!-- Links/Buttons -->
