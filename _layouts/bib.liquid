@@ -160,14 +160,11 @@
       {% if topic_text contains 'soft' or topic_text contains 'compliant' or topic_text contains 'pneumatic' %}
         <span class="theme-tag">Soft Robots</span>
       {% endif %}
-      {% if topic_text contains 'tactile' or topic_text contains 'acoustic' or topic_text contains 'contact' or topic_text contains 'propriocept' %}
+      {% if topic_text contains 'tactile' or topic_text contains 'acoustic' or topic_text contains 'contact' %}
         <span class="theme-tag">Tactile Sensing</span>
       {% endif %}
       {% if topic_text contains 'deform' or topic_text contains 'hair' or topic_text contains 'potter' %}
         <span class="theme-tag">Deformable Manipulation</span>
-      {% endif %}
-      {% if topic_text contains 'learning' or topic_text contains 'policy' or topic_text contains 'sim-to-real' %}
-        <span class="theme-tag">Robot Learning</span>
       {% endif %}
       {% if note_text contains 'best' or note_text contains 'finalist' or note_text contains 'oral' %}
         <span class="theme-tag award-tag">Award</span>

@@ -878,6 +878,13 @@ footer.sticky-bottom {
   margin-bottom: 0.35rem;
 }
 
+.bio-theme-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0.9rem 0 0.75rem;
+}
+
 .theme-tag {
   display: inline-block;
   font-size: 0.72rem;
