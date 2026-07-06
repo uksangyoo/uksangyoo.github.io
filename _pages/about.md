@@ -21,22 +21,18 @@ My work spans two main areas: developing methods to utilize robot compliance for
 
 I received my B.Sc. in Mathematics (2020) and in Mechanical Engineering (2021) at the University of Texas at Austin, where I developed my interest in continuous deformations and continuum structure representation. My research is supported by the NSF Graduate Research Fellowship Program.
 
-<a class="thesis-card" href="https://publications.ri.cmu.edu/mechanics-informed-learning-for-deformation-rich-manipulation" target="_blank" rel="noopener">
-  <img src="{{ '/assets/img/thesis_teaser.png' | relative_url }}" alt="Ph.D. Thesis teaser" loading="lazy" />
-  <div class="thesis-card-body">
-    <span class="thesis-card-label">Ph.D. Thesis · Carnegie Mellon University, 2026</span>
-    <span class="thesis-card-title">Mechanics-Informed Learning for Deformation-Rich Manipulation</span>
-    <span class="thesis-card-cta">Read the dissertation &rarr;</span>
-  </div>
-</a>
+<div class="thesis-card-wrap"><a class="thesis-card" href="https://publications.ri.cmu.edu/mechanics-informed-learning-for-deformation-rich-manipulation" target="_blank" rel="noopener"><img src="{{ '/assets/img/thesis_teaser.png' | relative_url }}" alt="Ph.D. Thesis teaser" loading="lazy" /><span class="thesis-card-body"><span class="thesis-card-label">Ph.D. Thesis · Carnegie Mellon University, 2026</span><span class="thesis-card-title">Mechanics-Informed Learning for Deformation-Rich Manipulation</span><span class="thesis-card-cta">Read the dissertation &rarr;</span></span></a></div>
 
 <style>
+  .thesis-card-wrap {
+    margin: 1.75rem 0 0.5rem;
+  }
   .thesis-card {
     display: flex;
     align-items: center;
-    gap: 1.25rem;
-    margin: 1.75rem 0 0.5rem;
-    padding: 1rem 1.25rem;
+    gap: 1.1rem;
+    max-width: 540px;
+    padding: 0.9rem 1.1rem;
     border: 1px solid var(--global-divider-color);
     border-radius: 10px;
     background-color: var(--global-card-bg-color, var(--global-bg-color));
@@ -50,8 +46,7 @@ I received my B.Sc. in Mathematics (2020) and in Mechanical Engineering (2021) a
     border-color: var(--global-theme-color);
   }
   .thesis-card img {
-    width: 170px;
-    max-width: 40%;
+    width: 120px;
     height: auto;
     border-radius: 6px;
     flex-shrink: 0;
@@ -59,22 +54,22 @@ I received my B.Sc. in Mathematics (2020) and in Mechanical Engineering (2021) a
   .thesis-card-body {
     display: flex;
     flex-direction: column;
-    gap: 0.35rem;
+    gap: 0.3rem;
   }
   .thesis-card-label {
-    font-size: 0.8rem;
-    letter-spacing: 0.02em;
+    font-size: 0.72rem;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--global-text-color-light);
   }
   .thesis-card-title {
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 600;
     line-height: 1.3;
     color: var(--global-text-color);
   }
   .thesis-card-cta {
-    font-size: 0.9rem;
+    font-size: 0.88rem;
     font-weight: 500;
     color: var(--global-theme-color);
   }
@@ -82,11 +77,10 @@ I received my B.Sc. in Mathematics (2020) and in Mechanical Engineering (2021) a
     .thesis-card {
       flex-direction: column;
       align-items: flex-start;
-      text-align: left;
+      max-width: 100%;
     }
     .thesis-card img {
       width: 100%;
-      max-width: 100%;
     }
   }
 </style>
