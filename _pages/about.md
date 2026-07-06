@@ -20,3 +20,73 @@ I am a postdoctoral researcher with [Prof. Ken Goldberg](https://goldberg.berkel
 My work spans two main areas: developing methods to utilize robot compliance for dexterous and delicate manipulation, and reasoning about continuous deformations of soft objects during contact-rich interactions. This research combines theoretical foundations in discrete differential geometry, machine learning, and soft body mechanics with practical applications in deploying dexterous robots to the real world.
 
 I received my B.Sc. in Mathematics (2020) and in Mechanical Engineering (2021) at the University of Texas at Austin, where I developed my interest in continuous deformations and continuum structure representation. My research is supported by the NSF Graduate Research Fellowship Program.
+
+<a class="thesis-card" href="https://publications.ri.cmu.edu/mechanics-informed-learning-for-deformation-rich-manipulation" target="_blank" rel="noopener">
+  <img src="{{ '/assets/img/thesis_teaser.png' | relative_url }}" alt="Ph.D. Thesis teaser" loading="lazy" />
+  <div class="thesis-card-body">
+    <span class="thesis-card-label">Ph.D. Thesis · Carnegie Mellon University, 2026</span>
+    <span class="thesis-card-title">Mechanics-Informed Learning for Deformation-Rich Manipulation</span>
+    <span class="thesis-card-cta">Read the dissertation &rarr;</span>
+  </div>
+</a>
+
+<style>
+  .thesis-card {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    margin: 1.75rem 0 0.5rem;
+    padding: 1rem 1.25rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 10px;
+    background-color: var(--global-card-bg-color, var(--global-bg-color));
+    text-decoration: none !important;
+    color: inherit;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  }
+  .thesis-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+    border-color: var(--global-theme-color);
+  }
+  .thesis-card img {
+    width: 170px;
+    max-width: 40%;
+    height: auto;
+    border-radius: 6px;
+    flex-shrink: 0;
+  }
+  .thesis-card-body {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+  }
+  .thesis-card-label {
+    font-size: 0.8rem;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: var(--global-text-color-light);
+  }
+  .thesis-card-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 1.3;
+    color: var(--global-text-color);
+  }
+  .thesis-card-cta {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--global-theme-color);
+  }
+  @media (max-width: 576px) {
+    .thesis-card {
+      flex-direction: column;
+      align-items: flex-start;
+      text-align: left;
+    }
+    .thesis-card img {
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+</style>
