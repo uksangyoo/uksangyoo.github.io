@@ -8,6 +8,12 @@ profile:
   align: left
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
+  more_info: >
+    <div class="profile-links">
+      <a href="https://scholar.google.com/citations?user=0bnaVQ8AAAAJ&hl=en" target="_blank" rel="noopener" title="Google Scholar"><i class="ai ai-google-scholar"></i> Scholar</a>
+      <a href="https://github.com/uksangyoo" target="_blank" rel="noopener" title="GitHub"><i class="fa-brands fa-github"></i> GitHub</a>
+      <a href="https://www.linkedin.com/in/uksang/" target="_blank" rel="noopener" title="LinkedIn"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+    </div>
 
 news: true # includes a list of news items
 latest_posts: false # includes a list of the newest posts
@@ -24,6 +30,34 @@ I received my B.Sc. in Mathematics (2020) and in Mechanical Engineering (2021) a
 <div class="thesis-card-wrap"><a class="thesis-card" href="https://publications.ri.cmu.edu/mechanics-informed-learning-for-deformation-rich-manipulation" target="_blank" rel="noopener"><img src="{{ '/assets/img/thesis_teaser.png' | relative_url }}" alt="Ph.D. Thesis teaser" loading="lazy" /><span class="thesis-card-body"><span class="thesis-card-label">Ph.D. Thesis · Carnegie Mellon University, 2026</span><span class="thesis-card-title">Mechanics-Informed Learning for Deformation-Rich Manipulation</span><span class="thesis-card-cta">Read the dissertation &rarr;</span></span></a></div>
 
 <style>
+  .profile-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 0.75rem;
+  }
+  .profile-links a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.35rem 0.7rem;
+    font-size: 0.85rem;
+    font-weight: 500;
+    line-height: 1;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 6px;
+    color: var(--global-text-color) !important;
+    text-decoration: none !important;
+    transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+  }
+  .profile-links a:hover {
+    border-color: var(--global-theme-color);
+    color: var(--global-theme-color) !important;
+    background-color: var(--global-card-bg-color, transparent);
+  }
+  .profile-links a i {
+    font-size: 1rem;
+  }
   .thesis-card-wrap {
     margin: 1.75rem 0 0.5rem;
   }
