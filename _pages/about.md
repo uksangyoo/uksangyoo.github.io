@@ -14,6 +14,22 @@ profile:
       <a href="https://github.com/uksangyoo" target="_blank" rel="noopener" title="GitHub"><i class="fa-brands fa-github"></i> GitHub</a>
       <a href="https://www.linkedin.com/in/uksang/" target="_blank" rel="noopener" title="LinkedIn"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
     </div>
+    <div class="email-reveal">
+      <button type="button" class="email-reveal-btn" data-scrambled="ude.yelekreb@gnasku"><i class="fa-solid fa-envelope"></i> Reveal email</button>
+    </div>
+    <script>
+      (function () {
+        document.querySelectorAll('.email-reveal-btn').forEach(function (btn) {
+          btn.addEventListener('click', function () {
+            var addr = btn.getAttribute('data-scrambled').split('').reverse().join('');
+            var span = document.createElement('span');
+            span.className = 'email-plain';
+            span.textContent = addr;
+            btn.replaceWith(span);
+          });
+        });
+      })();
+    </script>
 
 news: true # includes a list of news items
 latest_posts: false # includes a list of the newest posts
@@ -32,18 +48,20 @@ I received my B.Sc. in Mathematics (2020) and in Mechanical Engineering (2021) a
 <style>
   .profile-links {
     display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
+    flex-wrap: nowrap;
+    gap: 0.35rem;
     margin-top: 0.75rem;
   }
   .profile-links a {
     display: inline-flex;
     align-items: center;
-    gap: 0.4rem;
-    padding: 0.35rem 0.7rem;
-    font-size: 0.85rem;
+    justify-content: center;
+    gap: 0.3rem;
+    padding: 0.3rem 0.45rem;
+    font-size: 0.72rem;
     font-weight: 500;
     line-height: 1;
+    white-space: nowrap;
     border: 1px solid var(--global-divider-color);
     border-radius: 6px;
     color: var(--global-text-color) !important;
@@ -56,7 +74,37 @@ I received my B.Sc. in Mathematics (2020) and in Mechanical Engineering (2021) a
     background-color: var(--global-card-bg-color, transparent);
   }
   .profile-links a i {
-    font-size: 1rem;
+    font-size: 0.85rem;
+  }
+  .email-reveal {
+    margin-top: 0.5rem;
+  }
+  .email-reveal-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    padding: 0.3rem 0.45rem;
+    font-size: 0.72rem;
+    font-weight: 500;
+    line-height: 1;
+    background: none;
+    cursor: pointer;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 6px;
+    color: var(--global-text-color);
+    transition: border-color 0.2s ease, color 0.2s ease;
+  }
+  .email-reveal-btn:hover {
+    border-color: var(--global-theme-color);
+    color: var(--global-theme-color);
+  }
+  .email-reveal-btn i {
+    font-size: 0.85rem;
+  }
+  .email-plain {
+    font-size: 0.8rem;
+    color: var(--global-text-color);
+    user-select: all;
   }
   .thesis-card-wrap {
     margin: 1.75rem 0 0.5rem;
