@@ -27,7 +27,7 @@ My work spans two main areas: developing methods to utilize robot compliance for
 
 I received my B.Sc. in Mathematics (2020) and in Mechanical Engineering (2021) at the University of Texas at Austin, where I developed my interest in continuous deformations and continuum structure representation. My research is supported by the NSF Graduate Research Fellowship Program.
 
-<div class="thesis-card-wrap"><a class="thesis-card" href="https://publications.ri.cmu.edu/mechanics-informed-learning-for-deformation-rich-manipulation" target="_blank" rel="noopener"><img src="{{ '/assets/img/thesis_teaser.png' | relative_url }}" alt="Ph.D. Thesis teaser" loading="lazy" /><span class="thesis-card-body"><span class="thesis-card-label">Ph.D. Thesis · Carnegie Mellon University, 2026</span><span class="thesis-card-title">Mechanics-Informed Learning for Deformation-Rich Manipulation</span><span class="thesis-card-cta">Read the dissertation &rarr;</span></span></a></div>
+<div class="thesis-card-wrap"><a class="thesis-card" href="https://publications.ri.cmu.edu/mechanics-informed-learning-for-deformation-rich-manipulation" target="_blank" rel="noopener"><img src="{{ '/assets/img/thesis_teaser.png' | relative_url }}" alt="Ph.D. Thesis teaser" loading="lazy" /><span class="thesis-card-body"><span class="thesis-card-label">Ph.D. Thesis · Carnegie Mellon University, 2026</span><span class="thesis-card-title">Mechanics-Informed Learning for Deformation-Rich Manipulation</span><span class="thesis-card-tldr"><strong>TL;DR:</strong> We already know how soft bodies deform (mechanics, contact modeling) but how can we build them into general manipulation policy learning frameworks to learn to leverage deformation in our world with better sample efficiency and generalization?</span><span class="thesis-card-cta">Read the dissertation &rarr;</span></span></a></div>
 
 <style>
   .profile-links {
@@ -101,6 +101,11 @@ I received my B.Sc. in Mathematics (2020) and in Mechanical Engineering (2021) a
     font-weight: 600;
     line-height: 1.3;
     color: var(--global-text-color);
+  }
+  .thesis-card-tldr {
+    font-size: 0.85rem;
+    line-height: 1.4;
+    color: var(--global-text-color-light);
   }
   .thesis-card-cta {
     font-size: 0.88rem;
