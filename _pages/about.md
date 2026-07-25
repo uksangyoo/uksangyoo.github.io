@@ -37,8 +37,7 @@ social: false # includes social icons at the bottom of the page
 
 I am a postdoctoral researcher with [Prof. Ken Goldberg](https://goldberg.berkeley.edu/) in the [AUTOLab](https://autolab.berkeley.edu/) at [UC Berkeley](https://bair.berkeley.edu/). I completed my Ph.D. at Carnegie Mellon University in the Robotics Institute (RI), where I was co-advised by [Prof. Jean Oh](https://www.ri.cmu.edu/ri-faculty/jean-hyaejin-oh/) and [Prof. Jeffrey Ichnowski](https://ichnow.ski/) as a member of RI's [BIG lab](https://cmubig.github.io/) and Momentum lab. I have also worked as a research scientist intern with the robot learning groups at Bosch AI (Summer 2025) and Meta (Fall 2025).
 
-
-My research investigates how **mechanics and physics-based models** can enable **generalizable learning** for **dexterous, contact-rich manipulation**. In particular, I develop models of **contact dynamics** and **deformation mechanics** that provide strong inductive biases for robot learning. My work spans **compliant and dexterous manipulation**, **tactile and proprioceptive sensing**, and reasoning about the **continuous deformation of soft objects/robots** during physical interaction.
+My research investigates how **mechanics and physics-based models** can enable **generalizable learning** for **dexterous, contact-rich manipulation**. In particular, I develop models of **contact dynamics** and **deformation mechanics** that provide strong inductive biases for robot learning. My work spans **compliant and dexterous manipulation**, **learning from human demonstrations across embodiments through contact**, **tactile sensing**, and reasoning about the **continuous deformation of soft objects/robots** during physical interaction.
 
 This research draws on ideas from discrete differential geometry, machine learning, robotics, and soft-body mechanics, with the goal of deploying dexterous robotic systems reliably in the real world.
 
