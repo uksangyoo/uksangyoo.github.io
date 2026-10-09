@@ -1185,3 +1185,47 @@ swiper-container {
   --swiper-pagination-color: var(--global-theme-color);
   --swiper-pagination-bullet-inactive-color: var(--global-text-color);
 }
+
+// Homepage publication view switcher.
+.publication-browser {
+  .publication-filters:not([hidden]) {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .publication-filter {
+    border: 1px solid var(--global-divider-color);
+    border-radius: 2rem;
+    padding: 0.5rem 1rem;
+    background: var(--global-bg-color);
+    color: var(--global-text-color);
+    font: inherit;
+    cursor: pointer;
+
+    &[aria-pressed="true"] {
+      border-color: var(--global-theme-color);
+      color: var(--global-theme-color);
+      box-shadow: inset 0 0 0 1px var(--global-theme-color);
+      font-weight: 600;
+    }
+
+    &:hover,
+    &:focus-visible {
+      outline: 2px solid var(--global-theme-color);
+      outline-offset: 2px;
+    }
+  }
+
+  .publication-description,
+  .publication-count {
+    color: var(--global-text-color-light);
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+  }
+
+  li[hidden] {
+    display: none !important;
+  }
+}

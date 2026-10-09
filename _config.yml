@@ -224,7 +224,6 @@ exclude:
   - _pages/cv.md
   - _pages/dropdown.md
   - _pages/profiles.md
-  - _pages/publications.md
   - _pages/projects.md
   - _pages/teaching.md
 
@@ -312,6 +311,8 @@ scholar:
   details_link: Details
 
   query: "@*"
+  sort_by: year
+  order: descending
   group_by: year
   group_order: descending
 
