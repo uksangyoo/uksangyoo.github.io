@@ -45,6 +45,25 @@ I received my B.Sc. in Mathematics (2020) and in Mechanical Engineering (2021) a
 
 <div class="thesis-card-wrap"><a class="thesis-card" href="https://publications.ri.cmu.edu/mechanics-informed-learning-for-deformation-rich-manipulation" target="_blank" rel="noopener"><img src="{{ '/assets/img/thesis_teaser.png' | relative_url }}" alt="Ph.D. Thesis teaser" loading="lazy" /><span class="thesis-card-body"><span class="thesis-card-label">Ph.D. Thesis · Carnegie Mellon University, 2026</span><span class="thesis-card-title">Mechanics-Informed Learning for Deformation-Rich Manipulation</span><span class="thesis-card-tldr"><strong>TL;DR:</strong> We already know how soft bodies deform (mechanics, contact modeling) but how can we encode them into general manipulation policy learning frameworks to learn to leverage deformation in our world with better sample efficiency and generalization?</span><span class="thesis-card-cta">Read the dissertation &rarr;</span></span></a></div>
 
+<section class="home-section" aria-labelledby="recorded-talk-heading">
+  <h2 id="recorded-talk-heading">recorded talk</h2>
+  <p><strong>Why Mechanics Still Matters: Learning and Adaptation for Deformable Manipulation</strong><br>
+    Invited talk at the IROS 2026 Deformable Objects Manipulation workshop · September 27, 2026<br>
+    <a href="https://www.youtube.com/watch?v=APZzW6XkbFw">Watch on YouTube &rarr;</a>
+  </p>
+  <div class="embed-responsive embed-responsive-16by9">
+    <iframe
+      class="embed-responsive-item"
+      src="https://www.youtube-nocookie.com/embed/APZzW6XkbFw"
+      title="Why Mechanics Still Matters: Learning and Adaptation for Deformable Manipulation — Uksang Yoo"
+      loading="lazy"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+  </div>
+</section>
+
 <style>
   .profile-links {
     display: flex;

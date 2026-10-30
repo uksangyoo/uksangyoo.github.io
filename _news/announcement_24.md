@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I gave an invited talk, "Why Mechanics Still Matters: Learning and Adaptation for Deformable Manipulation," at the IROS 2026 [Deformable Objects Manipulation workshop](https://deformable-workshop.github.io/iros2026/)!
+I gave an invited talk, "Why Mechanics Still Matters: Learning and Adaptation for Deformable Manipulation," at the IROS 2026 [Deformable Objects Manipulation workshop](https://deformable-workshop.github.io/iros2026/)! [Watch the recording](https://www.youtube.com/watch?v=APZzW6XkbFw).
