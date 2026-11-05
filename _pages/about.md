@@ -29,6 +29,7 @@ profile:
       })();
     </script>
 
+featured_thesis: true # pairs the thesis talk with the dissertation
 news: true # includes a list of news items
 latest_posts: false # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -42,27 +43,6 @@ My research investigates how **mechanics and physics-based models** can enable *
 This research draws on ideas from discrete differential geometry, machine learning, robotics, and soft-body mechanics, with the goal of deploying dexterous robotic systems reliably in the real world.
 
 I received my B.Sc. in Mathematics (2020) and in Mechanical Engineering (2021) at the University of Texas at Austin, where I developed my interest in continuous deformations and continuum structure representation. My research is supported by the NSF Graduate Research Fellowship Program (GRFP).
-
-<div class="thesis-card-wrap"><a class="thesis-card" href="https://publications.ri.cmu.edu/mechanics-informed-learning-for-deformation-rich-manipulation" target="_blank" rel="noopener"><img src="{{ '/assets/img/thesis_teaser.png' | relative_url }}" alt="Ph.D. Thesis teaser" loading="lazy" /><span class="thesis-card-body"><span class="thesis-card-label">Ph.D. Thesis · Carnegie Mellon University, 2026</span><span class="thesis-card-title">Mechanics-Informed Learning for Deformation-Rich Manipulation</span><span class="thesis-card-tldr"><strong>TL;DR:</strong> We already know how soft bodies deform (mechanics, contact modeling) but how can we encode them into general manipulation policy learning frameworks to learn to leverage deformation in our world with better sample efficiency and generalization?</span><span class="thesis-card-cta">Read the dissertation &rarr;</span></span></a></div>
-
-<section class="home-section" aria-labelledby="recorded-talk-heading">
-  <h2 id="recorded-talk-heading">recorded talk</h2>
-  <p><strong>Why Mechanics Still Matters: Learning and Adaptation for Deformable Manipulation</strong><br>
-    Invited talk at the IROS 2026 Deformable Objects Manipulation workshop · September 27, 2026<br>
-    <a href="https://www.youtube.com/watch?v=APZzW6XkbFw">Watch on YouTube &rarr;</a>
-  </p>
-  <div class="embed-responsive embed-responsive-16by9">
-    <iframe
-      class="embed-responsive-item"
-      src="https://www.youtube-nocookie.com/embed/APZzW6XkbFw"
-      title="Why Mechanics Still Matters: Learning and Adaptation for Deformable Manipulation — Uksang Yoo"
-      loading="lazy"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      referrerpolicy="strict-origin-when-cross-origin"
-      allowfullscreen
-    ></iframe>
-  </div>
-</section>
 
 <style>
   .profile-links {
@@ -101,69 +81,5 @@ I received my B.Sc. in Mathematics (2020) and in Mechanical Engineering (2021) a
     color: var(--global-text-color);
     user-select: all;
     word-break: break-all;
-  }
-  .thesis-card-wrap {
-    margin: 1.75rem 0 0.5rem;
-  }
-  .thesis-card {
-    display: flex;
-    align-items: center;
-    gap: 1.1rem;
-    max-width: 540px;
-    padding: 0.9rem 1.1rem;
-    border: 1px solid var(--global-divider-color);
-    border-radius: 10px;
-    background-color: var(--global-card-bg-color, var(--global-bg-color));
-    text-decoration: none !important;
-    color: inherit;
-    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
-  }
-  .thesis-card:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
-    border-color: var(--global-theme-color);
-  }
-  .thesis-card img {
-    width: 120px;
-    height: auto;
-    border-radius: 6px;
-    flex-shrink: 0;
-  }
-  .thesis-card-body {
-    display: flex;
-    flex-direction: column;
-    gap: 0.3rem;
-  }
-  .thesis-card-label {
-    font-size: 0.72rem;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--global-text-color-light);
-  }
-  .thesis-card-title {
-    font-size: 1rem;
-    font-weight: 600;
-    line-height: 1.3;
-    color: var(--global-text-color);
-  }
-  .thesis-card-tldr {
-    font-size: 0.85rem;
-    line-height: 1.4;
-    color: var(--global-text-color-light);
-  }
-  .thesis-card-cta {
-    font-size: 0.88rem;
-    font-weight: 500;
-    color: var(--global-theme-color);
-  }
-  @media (max-width: 576px) {
-    .thesis-card {
-      flex-direction: column;
-      align-items: flex-start;
-      max-width: 100%;
-    }
-    .thesis-card img {
-      width: 100%;
-    }
   }
 </style>
